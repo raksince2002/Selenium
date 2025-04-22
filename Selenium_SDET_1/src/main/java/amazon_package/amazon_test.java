@@ -30,19 +30,19 @@ public class amazon_test {
 	}
 	
 	public void search(String inp) throws InterruptedException {
-		wd.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys(inp);
+		wd.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys(inp);
 		 
 		Thread.sleep(2000);
 		
 	}
 	
 	public void clicking() {
-		wd.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
+		wd.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 	}
 	
 	public String validate() {
 		
-		String t = wd.findElement(By.xpath("//*[@id='glow-ingress-line1']")).getText();
+		String t = wd.findElement(By.xpath("//span[@id='glow-ingress-line1']")).getText();
 		return t;
 	}
 	

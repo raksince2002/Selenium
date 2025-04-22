@@ -26,7 +26,7 @@ public class amazon_tests {
 	@BeforeClass
 	public static void setUp() throws Exception {
 		
-		wd = new ChromeDriver();
+		wd = new EdgeDriver();
 		a.init(wd);
 		
 	}
@@ -50,7 +50,7 @@ public class amazon_tests {
 		String[] pin = a.validate().split(" ");
 		String pin1 = pin[pin.length-1];
 		assertEquals("400017",pin1);
-		System.out.println(pin);
+		System.out.println("Validated");
 	}
 	
 	@Test
