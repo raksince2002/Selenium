@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Amazon_testpackage.Amazontest">
+      <class name="dropdown.NewTest">
         <methods>
+          <include name="returnlist"/>
           <include name="beforeClass"/>
-          <include name="f"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- Amazon_testpackage.Amazontest -->
+      </class> <!-- dropdown.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
