@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T16:38:49 IST" name="Default suite" finished-at="2025-04-23T16:39:37 IST" duration-ms="47888">
+  <suite started-at="2025-04-24T17:12:02 IST" name="Default suite" finished-at="2025-04-24T17:12:27 IST" duration-ms="25064">
     <groups>
     </groups>
-    <test started-at="2025-04-23T16:38:49 IST" name="Default test" finished-at="2025-04-23T16:39:37 IST" duration-ms="47888">
-      <class name="jquery.NewTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:jquery.NewTest@248e319b]" started-at="2025-04-23T16:38:49 IST" name="beforeClass" finished-at="2025-04-23T16:39:32 IST" duration-ms="42960" status="PASS">
+    <test started-at="2025-04-24T17:12:02 IST" name="Default test" finished-at="2025-04-24T17:12:27 IST" duration-ms="25064">
+      <class name="BigBasket.NewTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:BigBasket.NewTest@248e319b]" started-at="2025-04-24T17:12:02 IST" name="beforeClass" finished-at="2025-04-24T17:12:21 IST" duration-ms="19213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:jquery.NewTest@248e319b]" started-at="2025-04-23T16:39:32 IST" name="f" finished-at="2025-04-23T16:39:35 IST" duration-ms="2529" status="PASS">
+        <test-method signature="f()[pri:0, instance:BigBasket.NewTest@248e319b]" started-at="2025-04-24T17:12:21 IST" name="f" finished-at="2025-04-24T17:12:27 IST" duration-ms="5805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:jquery.NewTest@248e319b]" started-at="2025-04-23T16:39:35 IST" name="afterClass" finished-at="2025-04-23T16:39:37 IST" duration-ms="2344" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:BigBasket.NewTest@248e319b]" started-at="2025-04-24T17:12:27 IST" name="afterClass" finished-at="2025-04-24T17:12:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- jquery.NewTest -->
+      </class> <!-- BigBasket.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

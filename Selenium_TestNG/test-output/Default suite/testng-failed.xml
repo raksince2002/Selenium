@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jquery.NewTest">
+      <class name="BigBasket.NewTest">
         <methods>
           <include name="afterClass"/>
           <include name="beforeClass"/>
           <include name="f"/>
         </methods>
-      </class> <!-- jquery.NewTest -->
+      </class> <!-- BigBasket.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,6 +2,9 @@ package jquery;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -14,6 +17,7 @@ public class NewTest {
   @Test
   public void f() throws InterruptedException {
 	  j.dropframe();
+//	  wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
   }
   @BeforeClass
   public void beforeClass() {
@@ -22,10 +26,10 @@ public class NewTest {
 	  wd.manage().window().maximize();
   }
 
-  @AfterClass
-  public void afterClass() throws InterruptedException {
-	  Thread.sleep(2000);
-	  j.close();
-  }
+//  @AfterClass
+//  public void afterClass() throws InterruptedException {
+//	  wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//	  j.close();
+//  }
 
 }

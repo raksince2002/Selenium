@@ -1,5 +1,7 @@
 package jquery;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,13 +18,13 @@ public class Jquery {
 	
 	public void dropframe() throws InterruptedException {
 		wd.switchTo().frame(0);
+		wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		WebElement we = wd.findElement(By.id("draggable"));
 		WebElement we1 = wd.findElement(By.id("droppable"));
 		
 		Actions a = new Actions(wd);
 		
-		Thread.sleep(2000);
 		
 		a.dragAndDrop(we, we1).perform();
 		
