@@ -19,10 +19,14 @@ public class Bigbasket {
 	public void filter() throws InterruptedException {
 		wd.findElement(By.id("headlessui-menu-button-:R5bab6:")).click();
 		WebDriverWait w = new WebDriverWait(wd, Duration.ofSeconds(15));
-		w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[@href='/cl/fruits-vegetables/?nc=nb'])[2]"))).click();
-//		wd.findElement(By.id("//a[@href='/cl/fruits-vegetables/?nc=nb']")).click();
+		Thread.sleep(5000);
+//		w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(""))).click();
+		wd.findElement(By.id("(//a[@href='/cl/fruits-vegetables/?nc=nb'])[2]")).click();
 		Thread.sleep(5000);
 		wd.findElement(By.xpath("(//button[@pattern='outline'])[1]")).click();
+		
+//		(//tagname[@attribute=''])[]
+		
 	}
 
 }

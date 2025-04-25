@@ -36,6 +36,11 @@
     <artifactId>selenium-java</artifactId>
     <version>4.31.0</version>
 </dependency>
-    
+
+  	<dependency>
+  		<groupId>Selenium_SDET</groupId>
+  		<artifactId>Selenium_SDET_1</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-24T17:12:02 IST" name="Default suite" finished-at="2025-04-24T17:12:27 IST" duration-ms="25064">
+  <suite started-at="2025-04-25T17:13:26 IST" name="Default suite" finished-at="2025-04-25T17:13:45 IST" duration-ms="18701">
     <groups>
     </groups>
-    <test started-at="2025-04-24T17:12:02 IST" name="Default test" finished-at="2025-04-24T17:12:27 IST" duration-ms="25064">
-      <class name="BigBasket.NewTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:BigBasket.NewTest@248e319b]" started-at="2025-04-24T17:12:02 IST" name="beforeClass" finished-at="2025-04-24T17:12:21 IST" duration-ms="19213" status="PASS">
+    <test started-at="2025-04-25T17:13:26 IST" name="Default test" finished-at="2025-04-25T17:13:45 IST" duration-ms="18701">
+      <class name="SampLib.NewTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:SampLib.NewTest@2767e23c]" started-at="2025-04-25T17:13:26 IST" name="beforeClass" finished-at="2025-04-25T17:13:44 IST" duration-ms="18346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:BigBasket.NewTest@248e319b]" started-at="2025-04-24T17:12:21 IST" name="f" finished-at="2025-04-24T17:12:27 IST" duration-ms="5805" status="PASS">
+        <test-method signature="f()[pri:0, instance:SampLib.NewTest@2767e23c]" started-at="2025-04-25T17:13:44 IST" name="f" finished-at="2025-04-25T17:13:45 IST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:BigBasket.NewTest@248e319b]" started-at="2025-04-24T17:12:27 IST" name="afterClass" finished-at="2025-04-24T17:12:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:SampLib.NewTest@2767e23c]" started-at="2025-04-25T17:13:45 IST" name="afterClass" finished-at="2025-04-25T17:13:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- BigBasket.NewTest -->
+      </class> <!-- SampLib.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

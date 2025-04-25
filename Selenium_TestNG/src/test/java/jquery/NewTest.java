@@ -2,6 +2,7 @@ package jquery;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 
 import java.time.Duration;
 
@@ -15,8 +16,9 @@ public class NewTest {
 	static Jquery j = new Jquery();
 	
   @Test
-  public void f() throws InterruptedException {
+  public void f(@Optional("Hi") String p) throws InterruptedException {
 	  j.dropframe();
+	  System.out.println(p.concat(" da"));
 //	  wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
   }
   @BeforeClass
